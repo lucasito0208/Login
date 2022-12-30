@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="100dp"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="53dp"
+        app:errorEnabled="true"/>
+
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:minHeight="48dp"
+        app:errorEnabled="true" />
+
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:hint="@string/contrase_a"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        app:errorEnabled="true"
+        app:errorIconDrawable="@null" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar_sesion"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="110dp"
+        />
+
+
+
+</RelativeLayout>

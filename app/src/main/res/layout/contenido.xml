@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="236dp"
+            android:layout_height="30dp"
+            android:text="Titulo"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Descripcion..."
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/convalida"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="convalidada"
+            android:clickable="false"
+            android:focusable="false"/>
+    </LinearLayout>
+
+</LinearLayout>
